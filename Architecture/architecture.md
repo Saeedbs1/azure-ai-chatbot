@@ -6,7 +6,7 @@ This document explains the architecture and design decisions for the Azure AI Ch
 
 ## Architecture Diagram
 
-- The initial diagram (see Draw.io or Visio file) shows the following components:
+- The initial diagram (`azure-ai-chatbot.drawio.svg`) shows the following components:
   - **User**: Interacts with the chatbot via a command-line interface.
   - **Application**: Python app running locally, handling user input and responses.
   - **Azure OpenAI Resource**: Cloud service providing AI-powered responses (GPT-4o model).
