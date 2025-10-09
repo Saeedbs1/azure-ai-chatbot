@@ -22,7 +22,8 @@ def chat():
                 messages=[
                     {"role": "system", "content": "You are a helpful chatbot."},
                     {"role": "user", "content": user_input},
-                ]
+                ],
+                temperature=0.4,  
             )
             print("Bot:", resp.choices[0].message.content)
         except Exception as e:
